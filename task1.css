@@ -1,0 +1,112 @@
+body {
+    background-image: url("nature.jpg");
+    background-size: cover;
+}
+.box {
+background-color: #ffffff;
+width: 300px;
+height: 450px;
+margin: auto;
+margin-top: 4%;
+border-radius: 4px;
+box-shadow: 0px 2px 3px rgba(0,0,0,.13) ,1px 2px 2px rgba(0,0,0,.1) , -1px -2px 2px rgba(0,0,0,.05) ;
+
+}
+.box h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 125px;
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    top: 80px;
+    color: dimgray;
+    font-weight: 100;
+    font-size: 130%;
+}
+
+.box h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 40px;
+    
+    text-align: left;
+    position: relative;
+    top: 120px;
+    left: 20px;
+    color:gray;
+    font-weight: normal;
+    font-size: 105%;
+
+}
+.box h4{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 20px;
+    
+    text-align: center;
+    position: relative;
+    top: 110px;
+  
+    color:gray;
+    font-weight: normal;
+    font-size: 80%; 
+}
+.fb{
+    width: 100px;
+    height: 35px;
+    background-color: #2952a3;
+    border-radius: 5px;
+    color: #ffffff;
+    position: relative; 
+    top: 100px;
+    left: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 550;
+    font-size: 15px;
+}
+.go{
+    width: 100px;
+    height: 35px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 550;
+    font-size: 15px;
+    position: relative; 
+    top: 100px;
+    left: 55px;
+ 
+}
+input[type=text]
+{
+    width:50%;
+    margin-left: 10px;
+    padding: 7px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+ 
+
+}
+input[type=submit]
+{
+    background-color: #262626;
+    color: #ffffff;
+    width: 75%;
+    position: relative;
+    padding: 8px;
+    top: 120px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    left: 35px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: #404040;
+}
+a{
+    color: gray;
+    text-decoration: none;
+}
