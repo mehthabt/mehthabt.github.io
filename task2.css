@@ -1,9 +1,20 @@
-.basic{
-    position: relative;
-    right: -120px;
-   
-}
+
 .bo1{
     padding: 10px;
     border: 1px solid #000000;
+}
+
+.aback {
+
+}
+.aback a{
+    color: gray !important;
+}
+.tog
+{
+    position: relative !important;
+    right: 10px !important;
+}
+.shadow {
+padding: 0px !important;
 }
